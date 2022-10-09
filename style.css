@@ -1,0 +1,60 @@
+body, html {
+    height: 90%;
+    margin: 0;
+    background-color:rgb(239, 220, 255);
+  }
+
+.text-logo{
+    width: 350px;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+.pokemonChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.pokemonButtons{
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin-left: 40px;
+}
+.pokemonButtons:hover {
+    opacity: 0.9;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.pokemonButtons:hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.end {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 44px;
+}
+.wrapper {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.resultContainer {
+margin-top: 20px;
+text-align: center;
+}
+
+.end:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
